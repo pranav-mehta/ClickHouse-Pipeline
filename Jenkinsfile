@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'ec2-fleet' }
+    agent { label 'cpaas-clickhouse' }
 
     stages {
         stage('Setup parameters') {
